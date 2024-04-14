@@ -1,37 +1,27 @@
-# Ecommerce Project
+# AngularEcommerce
 
-Welcome to the Ecommerce project repository! This project is of an online shopping website with many features, such as:
-product cart, form validation, payment via stripe and many more.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
-# Demo video
+## Development server
 
-https://user-images.githubusercontent.com/107776531/210157428-27683ea2-275d-45e7-9d49-af22bb618a83.mp4
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Technologies Used
+## Code scaffolding
 
-1. **Angular:** 15.0.0.
-1. **Spring Boot:** 3.0.1
-1. **Angular CLI:** 15.0.0
-1. **Nodejs:** 18.12.1
-1. **SASS:** 1.56.0
-1. **Stripe**
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Installation
+## Build
 
-To install and run this project, you will need to have Docker and Docker Compose installed on your machine. Once you have confirmed that they are installed, follow the steps below:
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-1. Clone this repository to your local machine.
-2. Open a terminal window and navigate to the root directory of the cloned repository.
-3. Run the following command to start the containers:
+## Running unit tests
 
-```
-docker-compose up
-```
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-This command may take some time to complete as it needs to download all the necessary dependencies and build the project. Once it's finished, you can access the application by navigating to `http://localhost:4200` in your web browser.
+## Running end-to-end tests
 
-Note that the user for testing purposes is `admin@admin.com` and the password is `admin`, but please keep in mind that the application may not work correctly because there is no Stripe key included in the codebase.
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Contributing
+## Further help
 
-If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. We welcome any contributions and feedback!
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
